@@ -1,0 +1,50 @@
+name: BowTool
+main: com.github.zinntikumugai.bowtool.BowTool
+version: 0.0.1
+author: zinntikumugai
+
+command:
+  bow:
+    permission: bowtool.use
+    permission-message: You do't have permission!!
+    usage: /<command> < Action > < data... >
+    
+  
+permissions:
+  bowtool.reload:
+    description: Plugin reload 
+    default: false
+    
+  bowtool.use:
+    description: Allows use command
+    default: false
+    
+  bowtool.tp:
+    default: false
+    
+  bowtool.ban:
+    default: false
+    
+  bowtool.kick:
+    default: false
+    
+  bowtool.kill:
+    default: false
+    
+  bowtool.hide:
+    default: false
+    
+  bowtool.show:
+    default: false
+    
+  bowtool.*: 
+    default: false
+    children:
+      bowtool.use: true
+      bowtool.tp: true
+      bowtool.ban: true
+      bowtool.kick: true
+      bowtool.kill: true
+      bowtool.hide: true
+      bowtool.show: true
+    

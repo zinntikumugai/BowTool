@@ -1,0 +1,24 @@
+use:
+  #tp: true
+  tp: true
+  
+  #ban: false
+  ban: false
+  
+  #kick: true
+  kick: true
+  
+  #kill: false
+  kill: false
+  
+  #hide: true
+  hide: true
+  
+  #show: true
+  show: true
+  
+  #rehide: true
+  rehide: true
+
+# LimitTime: 15(second)
+LimitTime: 15
